@@ -8,10 +8,8 @@ body{
 }
 header{
     background-color: #f0fff0;
+    padding-top: 100px;
     margin-bottom: 80px;
-}
-nav{
-    margin-bottom: 100px;
 }
 .navbar img{
     width: 10em;
