@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,500&display=swap');
-
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -13,6 +12,7 @@ header{
 }
 .navbar img{
     width: 10em;
+    margin-left: 50px;
 }
 .navbar-nav li{
     margin-right: 2em;
@@ -30,22 +30,21 @@ h1{
     text-align: center;
     background-color: #f0fff0;
     border-radius: 15px;
-    padding-top: 20px;
-    height: 280px;
+    padding: 35px 5px;
     margin-top: 15px;
 }
-.activities img{
-    margin-bottom: 20px;
+.act-div > a > img{
+    width: 40%;
     margin-bottom: 20px;
 }
 .book img{
-    height: 130px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .act-div:hover{ 
     box-shadow: 10px 10px 15px rgb(149, 149, 149);
     background-color: white;  
-
 }
 .on-h2{
     font-size: 36px;
@@ -59,9 +58,12 @@ h1{
     width: 90%;
     margin: 15px auto;
 }
+.my-card button{
+    margin: 25px 0px;
+}
 .card{
     border-radius: 50px;
-    border: none;
+    border-width: 0px;
     box-shadow: 20px 20px 30px rgb(209, 209, 209);
 }
 footer{
