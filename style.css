@@ -30,18 +30,21 @@ h1{
     text-align: center;
     background-color: #f0fff0;
     border-radius: 15px;
+    padding-top: 20px;
+    height: 280px;
 }
 .activities img{
-    margin-top: 20px;
+    margin-bottom: 20px;
     margin-bottom: 20px;
 }
 .book img{
-    height: 110px;
+    height: 130px;
 }
 
 .act-div:hover{ 
-    box-shadow: 10px 10px 15px rgb(199, 198, 198);
+    box-shadow: 10px 10px 15px rgb(149, 149, 149);
     background-color: white;  
+
 }
 .on-h2{
     font-size: 36px;
@@ -85,6 +88,9 @@ footer{
     margin: 25px auto;
 }
 .testimonial-details p{
-    margin: 35px 25px;
+    margin: 50px 25px;
     width: 75%;
+}
+footer .container:nth-child(2){
+    margin-bottom: 0px;
 }
